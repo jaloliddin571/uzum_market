@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:uzum_market/components/constants/image.dart';
 
 class SearchPage extends StatefulWidget {
   const SearchPage({super.key});
