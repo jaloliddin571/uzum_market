@@ -39,9 +39,9 @@ class _MainPageState extends State<MainPage> {
               borderRadius: BorderRadius.circular(30), // To'liq yumaloq burchaklar
               color: Colors.grey.withOpacity(0.1), // Yengil kulrang rang
             ),
-            child: TextField(
+            child: const TextField(
               decoration: InputDecoration(
-                hintText: 'Qidiruv...', // Hint matnini qo'shdim
+                hintText: 'Mahsulot va toifalarni qidirish', // Hint matnini qo'shdim
                 hintStyle: TextStyle(
                   color: Colors.grey,
                 ),
@@ -66,7 +66,7 @@ class _MainPageState extends State<MainPage> {
               currentPage = value;
             });
           },
-          items: [
+          items: const [
             BottomNavigationBarItem(
                 icon: Icon(Icons.home), label: "Bosh sahifa"),
             BottomNavigationBarItem(
